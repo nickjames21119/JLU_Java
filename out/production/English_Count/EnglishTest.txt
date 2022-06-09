@@ -1,0 +1,23 @@
+edge such as gene regulatory networks for enhanced feature selection [18, 19]. Recently a linear regression model fitted to GTEx
+data has been presented for the prediction of tissue, sex, and
+other phenotypes of SRA and TCGA samples [20]. These efforts
+provide evidence that missing RNA-seq metadata can be successfully predicted on the basis of genomic expression values
+using ML approaches.
+Artificial neural networks (ANNs) in their various forms
+and functions consistently outperform classical ML approaches
+in a large variety of biological tasks, including classification,
+data generation, and segmentation [21–24]. Given large training
+datasets, these algorithms can learn complex representations of
+data by automatically weighting and combining features nonlinearly. This has led us to hypothesize that ANN-based models
+could increase the performance in metadata prediction beyond
+that of classical ML approaches such as linear regression. Of special interest in this context is domain adaptation (DA) [25], a subfield of ML that aims to specifically alleviate problems conferred
+by dataset bias [26]. The aim of DA is to build and train ANNs on
+a source domain in such a way that the model performs well on
+a biased target domain.
+Here, we present a DA approach capable of leveraging a number of dataset biases, boosting generalizability of phenotype prediction. We developed the model using 3 data sources (GTEx,
+TCGA, and SRA) of different size and with a different degree of
+bias. To validate our approach we compare it to a previously suggested linear model (LIN) [20], as well as a standard supervised
+multi-layer perceptron (MLP) for prediction of tissue of origin,
+sex, and sample source. Importantly, we find that our DA network is able to integrate heterogeneous training data such that
+classification accuracy is up to 15.7% higher for tissue classification compared to the supervised LIN model. We subsequently
+apply trained models to generate and make available new metadata for 8,495 unique SRA samples.

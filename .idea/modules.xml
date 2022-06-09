@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/English_Count/English_Count.iml" filepath="$PROJECT_DIR$/English_Count/English_Count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello_World/Hello_World.iml" filepath="$PROJECT_DIR$/Hello_World/Hello_World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_work.iml" filepath="$PROJECT_DIR$/.idea/Java_work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sum/Sum.iml" filepath="$PROJECT_DIR$/Sum/Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sumplus/Sumplus.iml" filepath="$PROJECT_DIR$/Sumplus/Sumplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrainStation/TrainStation.iml" filepath="$PROJECT_DIR$/TrainStation/TrainStation.iml" />
+    </modules>
+  </component>
+</project>
